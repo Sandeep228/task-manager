@@ -49,13 +49,4 @@ client/src/components/       TaskForm, TaskItem
 
 ---
 
-## Video script (about 90 seconds, speak to camera)
-"Hi, I'm [name]. Here are the three decisions behind my MERN task manager.
-First, validation lives in the Mongoose schema. The rules are defined once on the server, so nothing the client sends can break them, and the API returns clear error messages that the UI shows to the user.
-Second, I kept a clean boundary between front end and back end. React only talks to the API through one file, and Vite proxies requests in development, so there's no hard-coded URL or CORS pain.
-Third, I handled the unhappy paths: loading, empty and error states, debounced search, and safe handling of ids and search input.
-I chose not to build authentication, drag-and-drop or real-time reminders, to keep the scope on a solid core. My biggest limitation is missing API integration tests, which I'd add first with an in-memory MongoDB. Thanks for watching."
-
----
-
 
